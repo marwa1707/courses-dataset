@@ -9,7 +9,7 @@ search_phrase = "machine learning"
 
 # Chrome has to be in Capital C
 driver = webdriver.Chrome('ChromeDriver/chromedriver')
-driver.set_page_load_timeout(15)
+driver.set_page_load_timeout(30)
 try:
 
     driver.get("https://www.coursera.org/search?query=machine%20learning&page=100&index=prod_all_products_term_optimization")
